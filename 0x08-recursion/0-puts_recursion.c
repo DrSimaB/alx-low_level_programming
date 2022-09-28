@@ -10,13 +10,11 @@
  */
 void _puts_recursion(char *s)
 {
-	int ctr = 0;
-	char _puts_recursion[] = "Puts with recursion";
-
-	while (isprint(_puts_recursion[ctr]))
+	if (*s == 0)
 	{
-		putchar (_puts_recursion[ctr]);
-		ctr++;
+		_putchar('\n');
+		return;
 	}
-	printf("\n\n");
+	_putchar(*s);
+	_puts_recursion(s + 1);
 }

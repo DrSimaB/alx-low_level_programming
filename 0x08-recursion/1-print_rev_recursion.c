@@ -11,13 +11,9 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int ctr = 12;
-	char _print_rev_recursion[] = "Colton Walker";
-
-	while (isprint(_print_rev_recursion[ctr]))
+	if (*s != '\0')
 	{
-		putchar (_print_rev_recursion[ctr]);
-		ctr--;
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
-	printf("\n\n");
 }
