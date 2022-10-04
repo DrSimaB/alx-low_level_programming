@@ -1,44 +1,29 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
- * str_concat - concatenates two strings into a newly allocated space in memory
- * @s1: First string to be concatenated
- * @s2: Second string to be concatenated after s1
- *
- * Return: A pointer to the newly allocated memory, or NULL on failure
+ * *_calloc - function to allocates memory
+ * @nmemb: unsigned int type
+ * @size: unsigned int type
+ * Return: return pointer to array
  */
-
-char *str_concat(char *s1, char *s2)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
-	int i;
-	char *ptr = NULL;
-	char *as1 = s1;
-	char *as2 = s2;
+	char *ptr;
+	unsigned int count;
 
-	if (as1 == NULL)
-		as1 = "";
-	if (as2 == NULL)
-		as2 = "";
-	ptr = as1;
-	while (*ptr++)
-		i++;
-	ptr = as2;
-	while (*ptr++)
-		i++;
-	i++;
-	ptr = malloc(i * sizeof(char));
-	if (ptr == NULL)
+	if (nmemb == 0 || size == 0)
 		return (NULL);
-	i = 0;
-	while (*as1)
+	ptr = malloc(nmemb * size);
+	if (ptr == NULL)
 	{
-		ptr[i++] = *as1++;
+		return (NULL);
 	}
-	while (*as2)
+	count = 0;
+	while (count < nmemb * size)
 	{
-		ptr[i++] = *as2++;
+		ptr[count] = 0;
+		count++;
 	}
-	ptr[i] = *as2;
 	return (ptr);
 }
