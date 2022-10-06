@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
 		_puts("Error");
 		exit(98);
 	}
-
 	ln1 = _strlen(argv[1], &offn1);
 	ln2 = _strlen(argv[2], &offn2);
 	size = ln1 + ln2;
