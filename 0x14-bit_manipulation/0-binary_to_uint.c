@@ -7,11 +7,9 @@
  * Return: If b is NULL or contains chars not 0 or 1 - 0.
  *         Otherwise - the converted number.
  */
-
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num = 0, mult = 1;
-
 	int len;
 
 	if (b == '\0')
