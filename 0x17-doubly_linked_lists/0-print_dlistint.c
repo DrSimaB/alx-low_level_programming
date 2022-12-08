@@ -1,3 +1,8 @@
+/*
+ * File: 0-print_dlistint.c
+ * Auth: Benatha Simasiku
+ */
+
 #include "lists.h"
 
 /**
