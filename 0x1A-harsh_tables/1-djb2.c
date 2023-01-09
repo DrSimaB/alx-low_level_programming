@@ -1,6 +1,6 @@
 /*
  * File: 1-djb2.c
- * Auth: Brennan D Baraban
+ * Auth: Benatha Simasiku
  */
 
 #include "hash_tables.h"
