@@ -1,6 +1,6 @@
 /*
  * File: 4-hash_table_get.c
- * Auth: Brennan D Baraban
+ * Auth: Benatha Simasiku
 */
 
 #include "hash_tables.h"
