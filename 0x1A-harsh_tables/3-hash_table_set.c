@@ -1,6 +1,6 @@
 /*
  * File: 3-hash_table_set.c
- * Auth: Brennan D Baraban
+ * Auth: Benatha Simasiku
 */
 
 #include "hash_tables.h"
