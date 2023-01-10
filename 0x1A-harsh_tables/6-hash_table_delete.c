@@ -1,6 +1,6 @@
 /*
  * File: 6-hash_table_delete.c
- * Auth: Brennan D Baraban
+ * Auth: Benatha Simasiku
 */
 
 #include "hash_tables.h"
