@@ -1,6 +1,6 @@
 /*
  * File: 2-key_index.c
- * Auth: Brennan D Baraban
+ * Auth: Benatha Simasiku
 */
 
 #include "hash_tables.h"
